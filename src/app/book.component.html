@@ -3,12 +3,14 @@
     <h2> Book Search
       <img style="float: right;" *ngIf="loading" src='assets/images/loading.gif' />
     </h2>
+
   </div>
   <div class="row vspace">
     <div class="input-group">
       <app-search-box (loading)="loading = $event" (results)="updateResults($event)" ></app-search-box>
 
-    <img  src="../assets/bookwallpaper.jpg" class="center"> <img  src="../assets/bookwallpaper.jpg" class="center">
+
+
     </div>
   </div>
 

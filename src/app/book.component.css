@@ -7,6 +7,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color:  hwb(0 0% 100%);
+  background-image: url(../assets/bookwallpaper.jpg);
+
 
 
 }
@@ -25,15 +27,10 @@ code {
   text-align: center;
   font-size: calc(10px + 2vmin);
   width: 100%;
-
+  background-image: url(../assets/bookwallpaper.jpg);
 }
 
 .vspace {
   margin-top:20px;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+
 }
